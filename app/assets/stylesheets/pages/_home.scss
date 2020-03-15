@@ -1,0 +1,36 @@
+// Specific CSS for your home-page
+.banner-home-page {
+  background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(https://images.unsplash.com/photo-1531421786887-c8e873cbc529?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1049&q=80);
+  background-size: cover;
+  background-position: center;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  padding-left: 30px;
+  h1 {
+    color: white;
+    font-family: 'Playfair Display', serif;
+    font-size: 48px;
+  }
+  p {
+    color: white;
+    margin-bottom: 20px;
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+  }
+}
+
+.button-home-page {
+  padding: 10px 30px;
+  border:3px solid white;
+  color: white;
+  font-weight: bolder;
+  font-size: 22px;
+  font-family: 'Playfair Display', serif;
+}
+
+.button-home-page:hover {
+  background-color: white;
+  color: black;
+  transition: 0.5s;
+  text-decoration: none;
+}
