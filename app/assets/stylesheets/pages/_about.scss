@@ -8,9 +8,11 @@
   margin-right: 10px;
   h3 {
     font-family: 'Playfair Display', serif;
+    font-size: 40px;
   }
   h2 {
     font-family: 'Playfair Display', serif;
+    font-size: 45px;
   }
 }
 
@@ -18,13 +20,18 @@
   position: relative;
   h1 {
     position: absolute;
-    top: 6px;
+    top: 20px;
     color: white;
     padding-left: 20px;
     padding-right: 5px;
     font-family: 'Playfair Display', serif;
+    z-index: 1000;
   }
   img {
     position: sticky;
   }
+}
+
+.paragraph-about-page {
+  font-size: 15px;
 }
