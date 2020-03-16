@@ -1,1 +1,32 @@
+<br>
+<br>
+<div class="banner-song-page">
+  <h1>Alexandra Lansdale - Song List</h1>
+  <p style="color: white;"><em>Choose the wide range of songs avaliable </em></p>
+  <div class="button-home-page-margin"><%= link_to "Book Now", contact_path, class: "button-home-page" %></div>
+ <div class="form_index">
+    <%= simple_form_for :search, url: songs_list_path, method: :get do |f| %>
+      <%= f.submit "Search", class: "button-list-page"  %>
+      <%= f.input_field :artist, collection: ["American", "Welsh", "Irish", "Irish/Scottish", "All"], required: false, input_html: { class: "form_input" } %>
+    <% end %>
+  </div>
+</div>
+
+
+<div class="items">
+  <div class="row-of-items">
+      <% @songs.each do |song| %>
+      <div class="card-product">
+        <img src="https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/skateboard.jpg" />
+        <div class="card-product-infos">
+          <h4><%= "#{song.name}" %></h4>
+          <p><%= "#{song.artist}" %></p>
+        </div>
+      </div>
+      <% end %>
+  </div>
+
+</div>
+
+
 

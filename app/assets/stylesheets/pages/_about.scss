@@ -1,10 +1,30 @@
 .about-page-image-kate {
   width: 100%;
   border-bottom: 8px solid #f5cab3;
-  position: sticky;
 }
 
 .margin-info {
   margin-left: 10px;
   margin-right: 10px;
+  h3 {
+    font-family: 'Playfair Display', serif;
+  }
+  h2 {
+    font-family: 'Playfair Display', serif;
+  }
+}
+
+.about-kate-image {
+  position: relative;
+  h1 {
+    position: absolute;
+    top: 6px;
+    color: white;
+    padding-left: 20px;
+    padding-right: 5px;
+    font-family: 'Playfair Display', serif;
+  }
+  img {
+    position: sticky;
+  }
 }
