@@ -9,5 +9,6 @@ Rails.application.routes.draw do
   get "songs/new", to: "songs#new"
   get "songs/list", to: "songs#list"
   get "gallery", to: "pages#gallery"
-  resources :contact_forms
+  match '/contacts',     to: 'contacts#new',             via: 'get'
+  resources "contacts", only: [:new, :create]
 end
