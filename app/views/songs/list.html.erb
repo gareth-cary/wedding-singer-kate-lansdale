@@ -4,12 +4,14 @@
   <div class="banner-song-page">
     <h1>Alexandra Lansdale - Song List</h1>
     <p style="color: white;"><em>Choose the wide range of songs avaliable </em></p>
+    <p style="color: white;"><em>If you want any other song requests that arn't on the list, please don't hesitate to ask.</em></p>
+    <br>
     <div class="button-home-page-margin"><%= link_to "Book Now", contact_path, class: "button-home-page" %></div>
    <div class="form_index">
     </div>
        <div class="in-line">
         <%= simple_form_for :search, url: songs_list_path, method: :get do |f| %>
-        <%= f.input_field :artist, collection: ["American", "Welsh", "Irish", "Irish/Scottish", "All"], required: false, input_html: { class: "form_input" } %>
+        <%= f.input_field :artist, collection: ["American", "Welsh", "Irish", "Irish/Scottish", "Adele", "Amy Winehouse", "Audrey Hepburn", "The Beatles", "Bette Middler", "All"], required: false, input_html: { class: "form_input" } %>
         <%= f.submit "Search", class: "button-list-page"%>
       <% end %>
       </div>
@@ -20,7 +22,7 @@
   <div class="row-of-items">
       <% @songs.each do |song| %>
       <div class="card-product">
-        <img src="https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/skateboard.jpg" />
+        <img src=" <%= song.image %>", alt="Book Club photos" />
         <div class="card-product-infos">
           <h4><%= "#{song.name}" %></h4>
           <p><%= "#{song.artist}" %></p>
@@ -30,6 +32,8 @@
   </div>
 
 </div>
-
+<br>
+<br>
+<br>
 
 
