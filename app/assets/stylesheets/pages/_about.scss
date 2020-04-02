@@ -7,11 +7,11 @@
   margin-left: 10px;
   margin-right: 10px;
   h3 {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Roboto Slab', serif;
     font-size: 40px;
   }
   h2 {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Roboto Slab', serif;
     font-size: 45px;
   }
 }
@@ -24,14 +24,18 @@
     color: white;
     padding-left: 20px;
     padding-right: 5px;
-    font-family: 'Playfair Display', serif;
+    font-family: 'Roboto Slab', serif;
     z-index: 1000;
   }
   img {
     position: sticky;
   }
+  p {
+    font-family: 'Roboto Slab', serif;
+  }
 }
 
 .paragraph-about-page {
-  font-size: 15px;
+  font-size: 19px;
+  font-family: 'Roboto Slab', serif;
 }
