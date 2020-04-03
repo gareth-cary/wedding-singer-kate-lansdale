@@ -11,7 +11,7 @@
     </div>
        <div class="in-line">
         <%= simple_form_for :search, url: songs_list_path, method: :get do |f| %>
-        <%= f.input_field :artist, collection: ["American", "Welsh", "Irish", "Irish/Scottish", "Adele", "Amy Winehouse", "Audrey Hepburn", "The Beatles", "Bette Middler", "All"], required: false, input_html: { class: "form_input" } %>
+        <%= f.input_field :genre, collection: ["Folk", "Contempory", "Classical", "All"], required: false, input_html: { class: "form_input" } %>
         <%= f.submit "Search", class: "button-list-page"%>
       <% end %>
       </div>
@@ -24,7 +24,8 @@
       <div class="card-product">
         <img src=" <%= song.image %>", alt="Book Club photos" />
         <div class="card-product-infos">
-          <h4><%= "#{song.name}" %></h4>
+          <h3>Genre:  <em><%= "#{song.genre}" %></em></h3>
+          <h4>Song:  <em> <%= "#{song.name}" %></em></h4>
           <p><%= "#{song.artist}" %></p>
         </div>
       </div>

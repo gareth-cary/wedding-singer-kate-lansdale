@@ -1,7 +1,7 @@
 class SongsController < ApplicationController
 
   def list
-    @songs = Song.where(artist: params.dig(:search, :artist))
+    @songs = Song.where(genre: params.dig(:search, :genre))
     @songs = Song.all if @songs.empty?
   end
 

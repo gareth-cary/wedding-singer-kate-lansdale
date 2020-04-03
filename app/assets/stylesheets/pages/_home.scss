@@ -1,11 +1,12 @@
 // Specific CSS for your home-page
 .banner-home-page {
-  background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(https://images.unsplash.com/photo-1531421786887-c8e873cbc529?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1049&q=80);
+  background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(https://images.unsplash.com/photo-1524777313293-86d2ab467344?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80);
   background-size: cover;
   background-position: center;
   padding-top: 200px;
   padding-bottom: 200px;
-  padding-left: 30px;
+  padding-left: 80px;
+  height: 100vh;
   h1 {
     color: white;
     font-family: 'Roboto Slab', serif;
@@ -13,7 +14,7 @@
   }
   p {
     color: white;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
     font-family: 'Roboto Slab', serif;
     font-size: 20px;
   }
