@@ -1,6 +1,17 @@
 .about-page-image-kate {
   width: 100%;
   border-bottom: 8px solid #f5cab3;
+ background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5))
+}
+
+.carousel-item {
+
+ .about-page-image-kate{
+  background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.5));
+  background-image: -o-linear-gradient(rgba(0, 0, 0, 0.5));
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5));
+
+ }
 }
 
 .margin-info {
@@ -18,17 +29,13 @@
 
 .about-kate-image {
   position: relative;
-  h1 {
-    position: absolute;
-    top: 20px;
-    color: white;
-    padding-left: 20px;
-    padding-right: 5px;
-    font-family: 'Roboto Slab', serif;
-    z-index: 1000;
-  }
   img {
     position: sticky;
+  }
+  .alex-logo-3 {
+    position: absolute;
+    top: -10px;
+    width: 469px;
   }
   p {
     font-family: 'Roboto Slab', serif;
@@ -38,4 +45,12 @@
 .paragraph-about-page {
   font-size: 19px;
   font-family: 'Roboto Slab', serif;
+}
+
+.alex-logo-3 {
+    color: white;
+    padding-left: 20px;
+    padding-right: 5px;
+    font-family: 'Roboto Slab', serif;
+    z-index: 1000;
 }
