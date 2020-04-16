@@ -1,44 +1,187 @@
 // Specific CSS for your home-page
-.banner-home-page {
-  background-image: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7) ), url(https://images.unsplash.com/photo-1524777313293-86d2ab467344?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80);
-  background-size: cover;
-  background-position: center;
-  padding-bottom: 170px;
-  text-align: center;
-  height: 100vh;
-  h1 {
-    color: white;
-    font-family: 'Roboto Slab', serif;
-    font-size: 48px;
+@media (min-width: 1026px) {
+  .banner-home-page {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7) ), url(https://images.unsplash.com/photo-1524777313293-86d2ab467344?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80);
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 170px;
+    text-align: center;
+    height: 100vh;
+    h1 {
+      color: white;
+      font-family: 'Roboto Slab', serif;
+      font-size: 48px;
+    }
+    p {
+      color: white;
+      margin-bottom: 40px;
+      font-family: 'Roboto Slab', serif;
+      font-size: 20px;
+      opacity: 0.8;
+    }
   }
-  p {
+
+  .button-home-page {
+    padding: 10px 30px;
+    border:3px solid white;
     color: white;
-    margin-bottom: 40px;
+    font-weight: bolder;
+    font-size: 30px;
     font-family: 'Roboto Slab', serif;
-    font-size: 20px;
-    opacity: 0.8;
+
+  }
+
+  .button-home-page:hover {
+    background-color: white;
+    color: black;
+    transition: 0.5s;
+    text-decoration: none;
+  }
+
+  .alex-logo-2 {
+    margin-top: 30px;
+    width: 70%;
+    text-align: center;
   }
 }
 
-.button-home-page {
-  padding: 10px 30px;
-  border:3px solid white;
-  color: white;
-  font-weight: bolder;
-  font-size: 22px;
-  font-family: 'Roboto Slab', serif;
+/* i pad horizontal */
+@media (max-width: 1025px) {
+  .banner-home-page {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7) ), url(https://images.unsplash.com/photo-1524777313293-86d2ab467344?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80);
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 170px;
+    text-align: center;
+    height: 100vh;
+    h1 {
+      color: white;
+      font-family: 'Roboto Slab', serif;
+      font-size: 48px;
+    }
+    p {
+      color: white;
+      margin-bottom: 40px;
+      font-family: 'Roboto Slab', serif;
+      font-size: 20px;
+      opacity: 0.8;
+    }
+  }
 
+  .button-home-page {
+    padding: 10px 30px;
+    border:3px solid white;
+    color: white;
+    font-weight: bolder;
+    font-size: 30px;
+    font-family: 'Roboto Slab', serif;
+
+  }
+
+  .button-home-page:hover {
+    background-color: white;
+    color: black;
+    transition: 0.5s;
+    text-decoration: none;
+  }
+
+  .alex-logo-2 {
+    margin-top: 23px;
+    width: 90%;
+    text-align: center;
+  }
 }
 
-.button-home-page:hover {
-  background-color: white;
-  color: black;
-  transition: 0.5s;
-  text-decoration: none;
+/* i pad Vertical */
+@media (min-width: 700px) and (max-width: 785px) {
+  .banner-home-page {
+      background-image: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7) ), url(https://images.unsplash.com/photo-1524777313293-86d2ab467344?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80);
+      background-size: cover;
+      background-position: center;
+      padding-bottom: 170px;
+      text-align: center;
+      height: 100vh;
+      h1 {
+        color: white;
+        font-family: 'Roboto Slab', serif;
+        font-size: 48px;
+      }
+      p {
+        color: white;
+        margin-bottom: 40px;
+        font-family: 'Roboto Slab', serif;
+        font-size: 16px;
+        opacity: 0.8;
+      }
+    }
+
+    .button-home-page {
+      padding: 10px 30px;
+      border:3px solid white;
+      color: white;
+      font-weight: bolder;
+      font-size: 35px;
+      font-family: 'Roboto Slab', serif;
+
+    }
+
+    .button-home-page:hover {
+      background-color: white;
+      color: black;
+      transition: 0.5s;
+      text-decoration: none;
+    }
+
+    .alex-logo-2 {
+      margin-top: 150px;
+      width: 97%;
+      text-align: center;
+    }
 }
 
-.alex-logo-2 {
-  width: 50%;
-  min-width: 548px;
-  text-align: center;
+/* i phone 6/7/8*/
+@media (max-width: 420px) {
+  .banner-home-page {
+      background-image: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7) ), url(https://images.unsplash.com/photo-1524777313293-86d2ab467344?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80);
+      background-size: cover;
+      background-position: center;
+      padding-bottom: 170px;
+      text-align: center;
+      height: 100vh;
+      h1 {
+        color: white;
+        font-family: 'Roboto Slab', serif;
+        font-size: 48px;
+      }
+      p {
+        color: white;
+        margin-bottom: 40px;
+        font-family: 'Roboto Slab', serif;
+        font-size: 16px;
+        opacity: 0.8;
+      }
+    }
+
+    .button-home-page {
+      padding: 10px 30px;
+      border:3px solid white;
+      color: white;
+      font-weight: bolder;
+      font-size: 20px;
+      font-family: 'Roboto Slab', serif;
+
+    }
+
+    .button-home-page:hover {
+      background-color: white;
+      color: black;
+      transition: 0.5s;
+      text-decoration: none;
+    }
+
+    .alex-logo-2 {
+      margin-top: 78px;
+      width: 97%;
+      text-align: center;
+    }
 }
