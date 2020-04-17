@@ -1,4 +1,45 @@
 // Specific CSS for your home-page
+.banner-home-page {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7) ), url(https://images.unsplash.com/photo-1524777313293-86d2ab467344?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80);
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 170px;
+    text-align: center;
+    height: 100%;
+    p {
+      color: white;
+      margin-bottom: 20px;
+      font-family: 'Roboto Slab', serif;
+      font-size: 16px;
+      opacity: 0.8;
+    }
+  }
+
+  .button-home-page {
+    padding: 10px 30px;
+    border:3px solid white;
+    color: white;
+    font-weight: bolder;
+    font-size: 23px;
+    font-family: 'Roboto Slab', serif;
+    margin-bottom: 70px;
+  }
+
+  .button-home-page:hover {
+    background-color: white;
+    color: black;
+    transition: 0.5s;
+    text-decoration: none;
+  }
+
+  .alex-logo-2 {
+    margin-top: -53px;
+    width: 70%;
+    text-align: center;
+  }
+
+
+
 @media (min-width: 1026px) {
   .banner-home-page {
     background-image: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7) ), url(https://images.unsplash.com/photo-1524777313293-86d2ab467344?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80);
@@ -7,11 +48,6 @@
     padding-bottom: 170px;
     text-align: center;
     height: 100vh;
-    h1 {
-      color: white;
-      font-family: 'Roboto Slab', serif;
-      font-size: 48px;
-    }
     p {
       color: white;
       margin-bottom: 40px;
@@ -45,8 +81,50 @@
   }
 }
 
+/* i pad pro horizontal */
+@media (max-width: 1370px) and (min-width: 1300px) {
+  .banner-home-page {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7) ), url(https://images.unsplash.com/photo-1524777313293-86d2ab467344?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80);
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 170px;
+    text-align: center;
+    height: 100vh;
+    p {
+      color: white;
+      margin-bottom: 40px;
+      font-family: 'Roboto Slab', serif;
+      font-size: 23px;
+      opacity: 0.8;
+    }
+  }
+
+  .button-home-page {
+    padding: 10px 30px;
+    border:3px solid white;
+    color: white;
+    font-weight: bolder;
+    font-size: 40px;
+    font-family: 'Roboto Slab', serif;
+
+  }
+
+  .button-home-page:hover {
+    background-color: white;
+    color: black;
+    transition: 0.5s;
+    text-decoration: none;
+  }
+
+  .alex-logo-2 {
+    margin-top: 98px;
+    width: 83%;
+    text-align: center;
+  }
+}
+
 /* i pad horizontal */
-@media (max-width: 1025px) {
+@media (max-width: 1025px) and (min-width: 1000px) {
   .banner-home-page {
     background-image: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7) ), url(https://images.unsplash.com/photo-1524777313293-86d2ab467344?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80);
     background-size: cover;
@@ -93,7 +171,7 @@
 }
 
 /* i pad Vertical */
-@media (max-width: 785px) {
+@media (max-width: 785px) and (min-width: 760px) {
   .banner-home-page {
       background-image: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7) ), url(https://images.unsplash.com/photo-1524777313293-86d2ab467344?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80);
       background-size: cover;
@@ -101,11 +179,6 @@
       padding-bottom: 170px;
       text-align: center;
       height: 100vh;
-      h1 {
-        color: white;
-        font-family: 'Roboto Slab', serif;
-        font-size: 48px;
-      }
       p {
         color: white;
         margin-bottom: 40px;
@@ -133,13 +206,55 @@
     }
 
     .alex-logo-2 {
-      margin-top: 150px;
+      margin-top: 180px;
       width: 97%;
       text-align: center;
     }
 }
 
-/* i phone 6/7/8*/
+/* iphone horizontal 6/7/8 and plus */
+@media (max-width: 745px) and (min-width: 630px) {
+  .banner-home-page {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7) ), url(https://images.unsplash.com/photo-1524777313293-86d2ab467344?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80);
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 170px;
+    text-align: center;
+    height: 100vh;
+    p {
+      color: white;
+      margin-bottom: 20px;
+      font-family: 'Roboto Slab', serif;
+      font-size: 16px;
+      opacity: 0.8;
+    }
+  }
+
+  .button-home-page {
+    padding: 10px 30px;
+    border:3px solid white;
+    color: white;
+    font-weight: bolder;
+    font-size: 17px;
+    font-family: 'Roboto Slab', serif;
+
+  }
+
+  .button-home-page:hover {
+    background-color: white;
+    color: black;
+    transition: 0.5s;
+    text-decoration: none;
+  }
+
+  .alex-logo-2 {
+    margin-top: -39px;
+    width: 71%;
+    text-align: center;
+  }
+}
+
+/* i phone 6/7/8 and plus vertical */
 @media (max-width: 420px) {
   .banner-home-page {
       background-image: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7) ), url(https://images.unsplash.com/photo-1524777313293-86d2ab467344?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80);
@@ -148,17 +263,14 @@
       padding-bottom: 170px;
       text-align: center;
       height: 100vh;
-      h1 {
-        color: white;
-        font-family: 'Roboto Slab', serif;
-        font-size: 48px;
-      }
       p {
         color: white;
         margin-bottom: 40px;
         font-family: 'Roboto Slab', serif;
         font-size: 16px;
         opacity: 0.8;
+        padding-left: 10px;
+        padding-right: 10px;
       }
     }
 
@@ -180,7 +292,51 @@
     }
 
     .alex-logo-2 {
-      margin-top: 78px;
+      margin-top: 95px;
+      width: 97%;
+      text-align: center;
+    }
+}
+
+/* iphone 5 and smaller vertical */
+@media (max-width: 350px) {
+  .banner-home-page {
+      background-image: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7) ), url(https://images.unsplash.com/photo-1524777313293-86d2ab467344?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80);
+      background-size: cover;
+      background-position: center;
+      padding-bottom: 170px;
+      text-align: center;
+      height: 100vh;
+      p {
+        color: white;
+        margin-bottom: 40px;
+        font-family: 'Roboto Slab', serif;
+        font-size: 16px;
+        opacity: 0.8;
+        padding-left: 10px;
+        padding-right: 10px;
+      }
+    }
+
+    .button-home-page {
+      padding: 10px 30px;
+      border:3px solid white;
+      color: white;
+      font-weight: bolder;
+      font-size: 16px;
+      font-family: 'Roboto Slab', serif;
+
+    }
+
+    .button-home-page:hover {
+      background-color: white;
+      color: black;
+      transition: 0.5s;
+      text-decoration: none;
+    }
+
+    .alex-logo-2 {
+      margin-top: 40px;
       width: 97%;
       text-align: center;
     }
