@@ -49,6 +49,57 @@
   font-weight: bolder;
 }
 
+@media (min-width: 1026px) {.contact-info-alex {
+  text-align: center;
+
+}
+
+.background-contact-page {
+  background-image: url(https://images.unsplash.com/photo-1524563216914-d552816e4d67?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80);
+  height: 100vh;
+  padding-bottom: 380px;
+  background-position: center;
+  background-size: cover;
+}
+
+.wrapping-contact-info {
+  background-color: rgba(255, 255, 255, 0.8);
+  width: 520px;
+  display: inline-block;
+  padding: 20px 20px;
+  border-radius: 20px;
+  border: 10px solid #f6eedf;
+  font-family: 'Roboto Slab', serif;
+  margin-top: 250px;
+
+  h2 {
+    font-size: 40px;
+  }
+  p {
+    font-size: 20px;
+  }
+}
+
+.button-page {
+  color: black;
+
+  background-color: #f6eedf;
+  padding: 6px 22px;
+  font-size: 30px;
+}
+
+.button-page:hover {
+ background-color: black;
+ text-decoration: none;
+ color: white;
+ transition: 0.5s;
+}
+
+.phone-number {
+  font-size: 30px;
+  font-weight: bolder;
+}}
+
 /* pixel 2 and xl and iphone 6/7/8 plus vertical */
 @media (max-width: 1040px) {
   .contact-info-alex {
