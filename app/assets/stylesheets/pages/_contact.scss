@@ -1,7 +1,7 @@
 
 .contact-info-alex {
   text-align: center;
-  padding-top: 180px;
+
 }
 
 .background-contact-page {
@@ -29,9 +29,6 @@
   }
 }
 
-
-
-
 .button-page {
   color: black;
 
@@ -50,4 +47,316 @@
 .phone-number {
   font-size: 30px;
   font-weight: bolder;
+}
+
+/* pixel 2 and xl and iphone 6/7/8 plus vertical */
+@media (max-width: 1040px) {
+  .contact-info-alex {
+  text-align: center;
+}
+
+.background-contact-page {
+  background-image: url(https://images.unsplash.com/photo-1524563216914-d552816e4d67?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80);
+  height: 100vh;
+  padding-bottom: 100px;
+  background-position: center;
+  background-size: cover;
+}
+
+.wrapping-contact-info {
+  background-color: rgba(255, 255, 255, 0.8);
+  width: 500px;
+  display: inline-block;
+  padding: 20px 20px;
+  border-radius: 20px;
+  border: 10px solid #f6eedf;
+  font-family: 'Roboto Slab', serif;
+  margin-top: 400px;
+  h2 {
+    font-size: 45px;
+  }
+  p {
+    font-size: 30px;
+  }
+}
+
+.button-page {
+  color: black;
+
+  background-color: #f6eedf;
+  padding: 6px 14px;
+  font-size: 30px;
+}
+
+.button-page:hover {
+ background-color: black;
+ text-decoration: none;
+ color: white;
+ transition: 0.5s;
+}
+
+.phone-number {
+  font-size: 30px;
+  font-weight: bolder;
+}
+}
+
+/* ipad vertical */
+@media (max-width: 790px) {
+  .contact-info-alex {
+  text-align: center;
+}
+
+.background-contact-page {
+  background-image: url(https://images.unsplash.com/photo-1524563216914-d552816e4d67?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80);
+  height: 100vh;
+  padding-bottom: 100px;
+  background-position: center;
+  background-size: cover;
+}
+
+.wrapping-contact-info {
+  background-color: rgba(255, 255, 255, 0.8);
+  width: 400px;
+  display: inline-block;
+  padding: 20px 20px;
+  border-radius: 20px;
+  border: 10px solid #f6eedf;
+  font-family: 'Roboto Slab', serif;
+  margin-top: 305px;
+  h2 {
+    font-size: 35px;
+  }
+  p {
+    font-size: 20px;
+  }
+}
+
+.button-page {
+  color: black;
+
+  background-color: #f6eedf;
+  padding: 6px 14px;
+  font-size: 20px;
+}
+
+.button-page:hover {
+ background-color: black;
+ text-decoration: none;
+ color: white;
+ transition: 0.5s;
+}
+
+.phone-number {
+  font-size: 30px;
+  font-weight: bolder;
+}
+}
+
+/* pixel 2 and xl and iphone 6/7/8 plus vertical */
+@media (max-width: 420px) {
+  .contact-info-alex {
+  text-align: center;
+}
+
+.background-contact-page {
+  background-image: url(https://images.unsplash.com/photo-1524563216914-d552816e4d67?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80);
+  height: 100vh;
+  padding-bottom: 100px;
+  background-position: center;
+  background-size: cover;
+}
+
+.wrapping-contact-info {
+  background-color: rgba(255, 255, 255, 0.8);
+  width: 316px;
+  display: inline-block;
+  padding: 20px 20px;
+  border-radius: 20px;
+  border: 10px solid #f6eedf;
+  font-family: 'Roboto Slab', serif;
+  margin-top: 208px;
+  h2 {
+    font-size: 25px;
+  }
+  p {
+    font-size: 16px;
+  }
+}
+
+.button-page {
+  color: black;
+
+  background-color: #f6eedf;
+  padding: 6px 14px;
+  font-size: 17px;
+}
+
+.button-page:hover {
+ background-color: black;
+ text-decoration: none;
+ color: white;
+ transition: 0.5s;
+}
+
+.phone-number {
+  font-size: 30px;
+  font-weight: bolder;
+}
+}
+
+/*  iphone 6/7/8 vertical */
+@media (max-width: 380px) {
+  .contact-info-alex {
+  text-align: center;
+}
+
+.background-contact-page {
+  background-image: url(https://images.unsplash.com/photo-1524563216914-d552816e4d67?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80);
+  height: 100vh;
+  padding-bottom: 100px;
+  background-position: center;
+  background-size: cover;
+}
+
+.wrapping-contact-info {
+  background-color: rgba(255, 255, 255, 0.8);
+  width: 316px;
+  display: inline-block;
+  padding: 20px 20px;
+  border-radius: 20px;
+  border: 10px solid #f6eedf;
+  font-family: 'Roboto Slab', serif;
+  margin-top: 175px;
+  h2 {
+    font-size: 25px;
+  }
+  p {
+    font-size: 16px;
+  }
+}
+
+.button-page {
+  color: black;
+
+  background-color: #f6eedf;
+  padding: 6px 14px;
+  font-size: 17px;
+}
+
+.button-page:hover {
+ background-color: black;
+ text-decoration: none;
+ color: white;
+ transition: 0.5s;
+}
+
+.phone-number {
+  font-size: 30px;
+  font-weight: bolder;
+}
+}
+
+/* galaxy s5 vertical */
+@media (max-width: 370px) {
+  .contact-info-alex {
+  text-align: center;
+}
+
+.background-contact-page {
+  background-image: url(https://images.unsplash.com/photo-1524563216914-d552816e4d67?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80);
+  height: 100vh;
+  padding-bottom: 100px;
+  background-position: center;
+  background-size: cover;
+}
+
+.wrapping-contact-info {
+  background-color: rgba(255, 255, 255, 0.8);
+  width: 280px;
+  display: inline-block;
+  padding: 20px 20px;
+  border-radius: 20px;
+  border: 10px solid #f6eedf;
+  font-family: 'Roboto Slab', serif;
+  margin-top: 170px;
+  h2 {
+    font-size: 21px;
+  }
+  p {
+    font-size: 15px;
+  }
+}
+
+.button-page {
+  color: black;
+
+  background-color: #f6eedf;
+  padding: 6px 14px;
+  font-size: 16px;
+}
+
+.button-page:hover {
+ background-color: black;
+ text-decoration: none;
+ color: white;
+ transition: 0.5s;
+}
+
+.phone-number {
+  font-size: 30px;
+  font-weight: bolder;
+}
+}
+
+/* iphone 5 vertical */
+@media (max-width: 330px) {
+  .contact-info-alex {
+  text-align: center;
+}
+
+.background-contact-page {
+  background-image: url(https://images.unsplash.com/photo-1524563216914-d552816e4d67?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80);
+  height: 100vh;
+  padding-bottom: 100px;
+  background-position: center;
+  background-size: cover;
+}
+
+.wrapping-contact-info {
+  background-color: rgba(255, 255, 255, 0.8);
+  width: 280px;
+  display: inline-block;
+  padding: 20px 20px;
+  border-radius: 20px;
+  border: 10px solid #f6eedf;
+  font-family: 'Roboto Slab', serif;
+  margin-top: 125px;
+  h2 {
+    font-size: 21px;
+  }
+  p {
+    font-size: 15px;
+  }
+}
+
+.button-page {
+  color: black;
+
+  background-color: #f6eedf;
+  padding: 6px 14px;
+  font-size: 16px;
+}
+
+.button-page:hover {
+ background-color: black;
+ text-decoration: none;
+ color: white;
+ transition: 0.5s;
+}
+
+.phone-number {
+  font-size: 30px;
+  font-weight: bolder;
+}
 }
