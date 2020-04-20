@@ -21,7 +21,7 @@
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) {
   .row-of-items {
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
   }
 
 }
@@ -29,7 +29,7 @@
 // Extra large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) {
   .row-of-items {
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
   }
 
 }
