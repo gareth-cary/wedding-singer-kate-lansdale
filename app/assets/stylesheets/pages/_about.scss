@@ -1,22 +1,10 @@
 .about-page-image-kate {
   width: 100%;
   border-bottom: 8px solid #f5cab3;
- background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5))
-}
-
-.carousel-item {
-
- .about-page-image-kate{
-  background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.5));
-  background-image: -o-linear-gradient(rgba(0, 0, 0, 0.5));
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5));
-
- }
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5))
 }
 
 .margin-info {
-  margin-left: 10px;
-  margin-right: 10px;
   h3 {
     font-family: 'Roboto Slab', serif;
     font-size: 35px;
@@ -34,11 +22,11 @@
   }
   .alex-logo-3 {
     position: absolute;
-    top: -10px;
-        width: 87%
+    top: 2px;
+    width: 67%
   }
-  p {
-    font-family: 'Roboto Slab', serif;
+    p {
+     font-family: 'Roboto Slab', serif;
   }
 }
 
@@ -48,9 +36,38 @@
 }
 
 .alex-logo-3 {
-    color: white;
-    padding-left: 20px;
-    padding-right: 5px;
-    font-family: 'Roboto Slab', serif;
-    z-index: 1000;
+  color: white;
+  padding-left: 20px;
+  padding-right: 5px;
+  font-family: 'Roboto Slab', serif;
+  z-index: 1000;
+}
+
+@media (max-width: 820px) {
+  .margin-info {
+    h3 {
+      font-size: 20px;
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+    h2 {
+      font-size: 25px;
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+  }
+  .paragraph-about-page {
+    font-size: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .margin-bottom-about {
+    margin-bottom: 55px;
+  }
+  .about-page-image-kate {
+    width: 80%;
+  }
+  .alex-logo-3 img {
+    width: 50%;
+  }
 }
