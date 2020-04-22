@@ -1,10 +1,10 @@
 // Specific CSS for your home-page
 .banner-home-page {
     background-image: url(https://images.unsplash.com/photo-1518600892756-02ed67d750f5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1049&q=80);
-    padding-bottom: 18vh;
+    padding-top: 6vh;
+    padding-bottom: 4vh;
     background-size: cover;
     background-position: center;
-    position: absolute;
     width: 100%;
     border-bottom: 9px solid darkgrey;
   }
@@ -15,6 +15,9 @@
   justify-content: space-evenly;
   background-color: rgba(0, 0, 0, 0.3);
   padding-bottom: 9px;
+  width: 100%;
+  position: fixed;
+  top: 0;
   a {
     color: white;
     font-family: 'Roboto Slab', serif;
@@ -31,6 +34,11 @@
 
 .title-home-page {
   background-color: rgba(0,0,0,0.2);
+  border-radius: 20px;
+  width: 65%;
+  padding-bottom: 4px;
+  text-align: center;
+  margin: auto;
   h1 {
     text-align: center;
     color: white;
@@ -38,13 +46,78 @@
     font-size: 54px;
     font-family: 'Roboto Slab', serif;
   }
+  p {
+    text-align: center;
+    color: white;
+    opacity: 0.9;
+    font-size: 16px;
+  }
 }
 
 .home-page-image {
-  width: 30%;
-
+  width: 100%;
+  border-radius: 20px;
+  box-shadow: 0px 0px 10px 10px lightgrey;
 }
 
-.margin-homepage {
-  margin-top: 45vh;
+.margin-top-info {
+  margin-top: 20px;
+  margin-bottom: 30px;
 }
+
+.about-info-home-page {
+    h2 {
+      font-size: 35px;
+      font-family: 'Roboto Slab', serif;
+    }
+    p {
+      font-size: 18px;
+      font-family: 'Roboto Slab', serif;
+    }
+}
+
+.button-home {
+  color: white;
+  text-align: center;
+  display: block;
+  border: 3px solid white;
+  width: 182px;
+  margin: auto;
+  margin-top: 17px;
+  font-size: 32px;
+  &:hover {
+    color: black;
+    text-decoration: none;
+    background-color: white;
+    transition: 0.5s;
+
+  }
+}
+
+.footer1 {
+  height: 12vh;
+  width: 100%;
+  background-color: #333333;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 150px;
+  padding-right: 150px;
+  p {
+    font-size: 16px;
+  }
+}
+
+.button2 {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+
+
+
+
+
+
