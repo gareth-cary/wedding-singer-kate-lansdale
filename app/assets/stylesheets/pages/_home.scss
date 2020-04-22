@@ -9,29 +9,6 @@
     border-bottom: 9px solid darkgrey;
   }
 
-.nav-bar-home-page {
-  font-size: 20px;
-  display: flex;
-  justify-content: space-evenly;
-  background-color: rgba(0, 0, 0, 0.3);
-  padding-bottom: 9px;
-  width: 100%;
-  position: fixed;
-  top: 0;
-  z-index: 20000;
-  a {
-    color: white;
-    font-family: 'Roboto Slab', serif;
-    margin-top: 9px;
-    padding: 8px 21px;
-      &:hover {
-        color: white;
-        text-decoration: none;
-        background-color: black;
-        transition: 0.5s;
-    }
-  }
-}
 
 .title-home-page {
   background-color: rgba(0,0,0,0.2);
@@ -51,7 +28,7 @@
     text-align: center;
     color: white;
     opacity: 0.9;
-    font-size: 16px;
+    font-size: 18px;
   }
 }
 
@@ -115,7 +92,6 @@
   text-decoration: none;
   font-size: 16px;
 }
-
 
 
 
