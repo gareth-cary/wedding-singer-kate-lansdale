@@ -11,18 +11,13 @@
 
 
 .title-home-page {
-  background-color: rgba(0,0,0,0.2);
   border-radius: 20px;
   width: 65%;
   padding-bottom: 4px;
   text-align: center;
   margin: auto;
-  h1 {
-    text-align: center;
-    color: white;
-    margin-top: 60px;
-    font-size: 54px;
-    font-family: 'Roboto Slab', serif;
+  img {
+    width: 700px;
   }
   p {
     text-align: center;
@@ -93,7 +88,9 @@
   font-size: 16px;
 }
 
-
+.margin-bottom-home {
+  border-bottom: 3px solid lightgrey;
+}
 
 
 

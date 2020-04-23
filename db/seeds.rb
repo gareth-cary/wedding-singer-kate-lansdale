@@ -83,7 +83,7 @@ Song.create(name: 'The Ash Grove',
   genre: 'Folk',
   image: 'https://images.unsplash.com/photo-1523257813706-ff6e594e4880?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80')
 
-Song.create(name: 'Make You Feel Free',
+Song.create(name: 'Make You Feel My Love',
   artist: 'Adele',
   genre: 'Contempory',
   image: 'https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80')

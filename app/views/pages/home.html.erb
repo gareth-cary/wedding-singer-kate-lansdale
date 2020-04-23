@@ -2,7 +2,7 @@
 
 <div class="banner-home-page">
   <div class="title-home-page">
-    <h1>Alexandra Lansdale - Wedding Singer</h1>
+    <%= image_tag "logo-home-page-2.png" %>
     <p><em>Wedding Singer at the click of a button</em></p>
   </div>
   <div class="button-home-page">
@@ -12,7 +12,7 @@
 
 <h1 style="text-align: center;font-family: 'Roboto Slab', serif; font-size: 47px; border-bottom: 2px solid lightgrey; margin-top: 10px; margin-bottom: 10px; padding-bottom: 10px;">About - Alexandra</h1>
 
-<div class="container">
+<div class="container margin-bottom-home">
   <div class="row margin-top-info">
    <div class="col-lg-4">
       <%= image_tag ("kate7.png"), class: "home-page-image" %>
@@ -30,13 +30,46 @@
 </div>
 
 
+  <br>
+<div style="background-color: lightgrey; margin-right: 30px; margin-left: 30px;">
+  <br>
+  <h2 style="font-size: 45px; text-align: center; font-family: 'Roboto Slab', serif;">Audio Clips</h2>
+  <br>
+    <br>
 
-  <audio class="audios" id="yes-audio" controls preload="yes-audio">
-   <source src="audios/audiofile.mp3" type="audio/mpeg">
-</audio>
+  <div class="audio-all-files">
+    <div class="audio-file">
+      <h3 style="font-family: 'Roboto Slab', serif;">Genre: <em>Contempory</em></h3>
+      <h4 style="font-family: 'Roboto Slab', serif;">Song: <em>Fly Me To The Moon</em></h4>
+      <p style="font-family: 'Roboto Slab', serif;">Frank Sinatra</p>
+      <audio class="audios" id="yes-audio" controls preload="yes-audio">
+       <source src="audios/audiofile.mp3" type="audio/mpeg">
+      </audio>
+    </div>
+    <br>
+      <br>
 
-<audio class="audios" id="yes-audio" controls preload="yes-audio">
-   <source src="audios/makeyoufeelmylove.mp3" type="audio/mpeg">
-</audio>
+    <div class="audio-file">
+     <h3 style="font-family: 'Roboto Slab', serif;">Genre: <em>Contempory</em></h3>
+      <h4 style="font-family: 'Roboto Slab', serif;">Song: <em>Make You Feel My Love</em></h4>
+      <p style="font-family: 'Roboto Slab', serif;">Adele</p>
+      <audio class="audios" id="yes-audio" controls preload="yes-audio">
+         <source src="audios/makeyoufeelmylove.mp3" type="audio/mpeg">
+      </audio>
+    </div>
+  </div>
+    <br>
+      <br>
+        <br>
+</div>
 
 <%= render "footer" %>
+
+
+
+
+
+
+
+
+
