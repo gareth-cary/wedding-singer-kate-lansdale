@@ -16,3 +16,22 @@
   background-color: floralwhite;
 
 }
+
+@media (max-width: 880px) {
+  .audio-all-files {
+    display: grid;
+  }
+}
+
+@media (max-width: 450px) {
+  .audio-all-files {
+    display: grid;
+  }
+  #yes-audio {
+    width: 270px;
+  }
+  .audio-file {
+    padding: 10px 10px;
+  }
+}
+
