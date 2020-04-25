@@ -42,5 +42,10 @@
   justify-items: center;
 }
 
+@media (max-width: 450px) {
+  .card-product {
+    width: 290px;
+  }
+}
 
 
