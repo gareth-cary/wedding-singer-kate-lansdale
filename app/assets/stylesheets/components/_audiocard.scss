@@ -35,3 +35,15 @@
   }
 }
 
+@media (min-width: 1000px) and (max-width: 1370px) {
+  .audio-all-files {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 0fr;
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+  .audio-file {
+    margin-bottom: 20px;
+  }
+}
+
