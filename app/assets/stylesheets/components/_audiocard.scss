@@ -3,14 +3,19 @@
 }
 
 .audio-all-files {
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 0fr 1fr 0fr;
+  -webkit-box-pack: center;
   justify-content: center;
+  margin-right: 24%;
+  margin-left: 24%;
 }
 
 
 .audio-file {
   margin-right: 10px;
   margin-left: 10px;
+  margin-bottom: 20px;
   box-shadow: 0 0 15px rgba(0,0,0,0.2);
   padding: 10px 25px;
   background-color: floralwhite;
@@ -20,12 +25,14 @@
 @media (max-width: 880px) {
   .audio-all-files {
     display: grid;
+    grid-template-columns: 0fr;
   }
 }
 
 @media (max-width: 450px) {
   .audio-all-files {
     display: grid;
+    grid-template-columns: 0fr;
   }
   #yes-audio {
     width: 270px;

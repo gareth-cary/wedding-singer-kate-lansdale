@@ -87,6 +87,13 @@
   padding: 14px 25px;
   font-size: 20px;
   color: white;
+  font-family: 'Roboto Slab', serif;
+  &:hover {
+    color: black;
+    background-color: white;
+    text-decoration: none;
+    transition: 0.5s;
+  }
 }
 
 @media (min-width: 100px) and (max-width: 575px) {
