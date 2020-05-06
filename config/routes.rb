@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
 
+  resources "contacts", only: [:new, :create]
   # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
   root to: 'pages#home'
   get 'about', to: 'pages#about'
@@ -9,5 +10,4 @@ Rails.application.routes.draw do
   get "songs/list", to: "songs#list"
   get "gallery", to: "pages#gallery"
 
-  resources "contacts", only: [:new, :create]
 end
