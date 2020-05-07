@@ -27,7 +27,7 @@ Rails.application.configure do
 
   # Do not fallback to assets pipeline if a precompiled asset is missed.
   config.assets.compile = false
-
+  config.force_ssl = true
   # Enable serving of images, stylesheets, and JavaScripts from an asset server.
   # config.action_controller.asset_host = 'http://assets.example.com'
 
@@ -86,18 +86,7 @@ Rails.application.configure do
   # Do not dump schema after migrations.
   config.active_record.dump_schema_after_migration = false
 
-  config.action_mailer.default_url_options = { host: 'https://weddingsinger.herokuapp.com' }
-  config.action_mailer.delivery_method = :smtp
 
-  ActionMailer::Base.smtp_settings = {
-    :user_name => ENV['app168613593@heroku.com'],
-    :password => ENV['0shtaocm6114'],
-    :domain => 'https://weddingsinger.herokuapp.com/',
-    :address => 'smtp.sendgrid.net',
-    :port => 587,
-    :authentication => :plain,
-    :enable_starttls_auto => true
-}
   # Inserts middleware to perform automatic connection switching.
   # The `database_selector` hash is used to pass options to the DatabaseSelector
   # middleware. The `delay` is used to determine how long to wait after a write
