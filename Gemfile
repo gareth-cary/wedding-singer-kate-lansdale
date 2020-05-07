@@ -26,6 +26,7 @@ gem 'autoprefixer-rails'
 
 gem 'simple_form'
 gem 'mail_form', '~> 1.8'
+gem 'sendgrid-ruby'
 
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.4.2', require: false
