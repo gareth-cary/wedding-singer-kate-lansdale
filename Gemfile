@@ -24,7 +24,7 @@ gem 'jbuilder', '~> 2.7'
 gem "paperclip", "~> 5.2"
 gem 'autoprefixer-rails'
 
-gem 'simple_form'
+
 gem 'mail_form', '~> 1.8'
 gem 'sendgrid-ruby'
 
